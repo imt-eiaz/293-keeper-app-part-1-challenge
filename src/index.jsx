@@ -1,8 +1,9 @@
 //1. Create a new React app. - Done
-
+import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App.jsx";
 import "../public/styles.css";
+
+import App from "./component/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
